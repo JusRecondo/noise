@@ -1,0 +1,56 @@
+:root {
+    --main-font: 'Share Tech Mono', monospace;
+    --black: #000;
+    --light-grey: #aeaeae;
+    --grey: #767676;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--light-grey);
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    outline: none;
+    border: 2px solid var(--grey);
+    background-color: var(--black);
+    color: var(--light-grey);
+}
+
+button:hover {
+    background-color: var(--grey);
+}
+
+label {
+    display: inline-flex;
+    align-items: center;
+}
+
+select {
+    margin-bottom: 10px;
+    display: block;
+}
+
+label,
+input,
+select,
+button {
+    margin: 10px 0;
+}

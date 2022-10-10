@@ -26,6 +26,11 @@ body {
     padding: 20px;
 }
 
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
 button {
     padding: 10px;
     outline: none;
